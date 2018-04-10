@@ -8,7 +8,7 @@
     <string name="text_login">Login</string>
     <string name="text_register">Register</string>
     <string name="error_message_name">Enter Full Name</string>
-    <string name="error_message_email">Enter Valid Email</string>
+    <string name="error_message_userid">Enter Valid UserId</string>
     <string name="error_message_age">Enter Age</string>
     <string name="error_message_password">Enter Password</string>
     <string name="success_message">Registration Successful</string>
@@ -35,4 +35,7 @@
     <string name="hint_subject">Subject</string>
     <string name="ld">Lecture Details</string>
     <string name="AD">Attendance Details</string>
+    <string name="error_message_branch">Enter valid Branch</string>
+    <string name="error_message_semester">Enter valid Semester</string>
+    <string name="error_message_subject">Enter valid Subject</string>
 </resources>

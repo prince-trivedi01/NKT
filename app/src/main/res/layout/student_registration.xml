@@ -31,7 +31,7 @@
             android:layout_marginTop="40dp">
 
             <android.support.design.widget.TextInputEditText
-                android:id="@+id/textInputEditTextName"
+                android:id="@+id/textInputEditTextStudentName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/hint_name"
@@ -41,13 +41,13 @@
         </android.support.design.widget.TextInputLayout>
 
         <android.support.design.widget.TextInputLayout
-            android:id="@+id/textInputLayoutEmail"
+            android:id="@+id/textInputLayoutUserId"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp">
 
             <android.support.design.widget.TextInputEditText
-                android:id="@+id/textInputEditTextUserd"
+                android:id="@+id/textInputEditTextUserId"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/hint_userid"
@@ -63,7 +63,7 @@
             android:layout_marginTop="20dp">
 
             <android.support.design.widget.TextInputEditText
-                android:id="@+id/textInputEditBranchtext"
+                android:id="@+id/textInputEditTextBranch"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/hint_branch"
@@ -96,14 +96,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp">
 
-            <android.support.v7.widget.AppCompatButton
-                android:id="@+id/appCompatButtonRegister"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="40dp"
-                android:background="@color/colorTextHint"
-                android:text="@string/text_register"
-                android:layout_weight="1" />
+
 
             <android.support.design.widget.TextInputEditText
                 android:id="@+id/textInputEditTextConfirmPassword"
@@ -114,6 +107,15 @@
                 android:maxLines="1"
                 android:textColor="@android:color/white" />
         </android.support.design.widget.TextInputLayout>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/appCompatButtonStudentRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@color/colorTextHint"
+            android:text="@string/text_register"
+            android:layout_weight="1" />
 
         <android.support.v7.widget.AppCompatTextView
             android:id="@+id/appCompatTextViewLoginLink1"
